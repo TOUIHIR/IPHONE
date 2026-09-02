@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone - Innovation Inside</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Loading Experience <span id="load-percent">0%</span></p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">iPhone</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Overview</a></li>
+                    <li><a href="#specs">Specs</a></li>
+                    <li><a href="#colors">Colors</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1 class="fade-in">Discover the innovation inside</h1>
+            <p class="subtitle fade-in">Precision engineering. Unmatched power.</p>
+        </div>
+    </section>
+
+    <!-- Animation Section -->
+    <section id="animation-trigger" class="animation-container">
+        <div class="sticky-wrapper">
+            <!-- Progress Bar -->
+            <div class="scroll-progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+
+            <!-- Canvas for Sequence Images -->
+            <canvas id="animation-canvas"></canvas>
+
+            <!-- Milestone Text Overlay -->
+            <div class="milestone-text" id="text-start">Premium design</div>
+            <div class="milestone-text" id="text-middle">Advanced technology</div>
+            <div class="milestone-text" id="text-end">Precision engineering</div>
+        </div>
+    </section>
+
+    <!-- Specs Section -->
+    <section id="specs" class="specs">
+        <div class="container">
+            <h2 class="section-title">Technical Specifications</h2>
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <div class="spec-icon">📱</div>
+                    <h3>Super Retina XDR</h3>
+                    <p>ProMotion technology with Always-On display.</p>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon">⚡</div>
+                    <h3>A-Series Bionic</h3>
+                    <p>Unprecedented speed and efficiency.</p>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon">📷</div>
+                    <h3>48MP Main Camera</h3>
+                    <p>Capture every detail with professional precision.</p>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon">🔋</div>
+                    <h3>All-day Battery</h3>
+                    <p>Optimized power for your busiest days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Colors Section -->
+    <section id="colors" class="colors">
+        <div class="container">
+            <h2 class="section-title">Available in</h2>
+            <div class="color-gallery">
+                <div class="color-option" style="background: #e3e4e5" data-color="Silver">
+                    <span>Silver</span>
+                </div>
+                <div class="color-option" style="background: #2c2c2e" data-color="Space Black">
+                    <span>Space Black</span>
+                </div>
+                <div class="color-option" style="background: #d1d1d1" data-color="Titanium">
+                    <span>Titanium</span>
+                </div>
+                <div class="color-option" style="background: #f5f5f7" data-color="Starlight">
+                    <span>Starlight</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">Mac</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 iPhone Landing Page. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
