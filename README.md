@@ -17,11 +17,7 @@ synchronisé avec des sections de texte qui apparaissent en fondu.
 ├── index.html # Structure HTML principale
 ├── style.css # Styles (fond noir uniforme, typographie, layout)
 ├── script.js # Logique scroll-scrubbing + preload des images
-├── IPHONE_FRAMES/ # Dossier des 120 frames
-│ ├── ezgif-frame-001.jpg
-│ ├── ezgif-frame-002.jpg
-│ ├── ...
-│ └── ezgif-frame-120.jpg
+├── IPHONE_FRAMES/ 
 └── README.md
 
 
